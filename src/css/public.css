@@ -1,0 +1,582 @@
+.show {
+    display: block!important;
+}
+
+.hide {
+    display: none!important;
+}
+
+/*                          导航栏                             */
+
+header {
+    height: 33px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+header section {
+    width: 1714px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header section ul {
+    float: right;
+}
+
+header section ul li {
+    float: left;
+}
+
+header section ul li a {
+    font-size: 12px;
+    color: #98989a;
+    padding: 11px 26px 10px 0;
+}
+
+header section ul li:last-of-type a {
+    font-size: 12px;
+    color: #98989a;
+    padding-right: 0;
+}
+
+header section ul li:nth-of-type(1) img, header section ul li:nth-of-type(2) img {
+    width: 10px;
+    vertical-align: baseline;
+}
+
+header section ul li:nth-of-type(4) img {
+    width: 6px;
+}
+
+header section ul li:nth-of-type(2) a::before, header ul li:nth-of-type(3) a::before, header ul li:nth-of-type(4) a::before {
+    content: "|";
+    margin-right: 20px;
+}
+
+header section ul li .aboutUs {
+    display: none;
+    width: 960px;
+    height: 438px;
+    background: #fff;
+    padding: 32px 0;
+    border-top: 1px solid #F0F0F0;
+    border-radius: 2px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+    position: absolute;
+    top: 33px;
+    right: 30px;
+    z-index: 999;
+    overflow: hidden;
+}
+
+header section ul li .aboutUs .top {
+    width: 960px;
+    margin-left: 45px;
+}
+
+header section ul li .aboutUs .top div {
+    width: 160px;
+    height: 181px;
+    font-size: 14px;
+    float: left;
+}
+
+header section ul li .aboutUs .top div ul {
+    margin-top: -9px;
+    float: left;
+}
+
+header section ul li .aboutUs .top div ul li {
+    font-size: 12px;
+    color: #333;
+    font-weight: 300;
+    margin-top: 15px;
+    float: none;
+    position: relative;
+}
+
+header section ul li .aboutUs .top div ul li a {
+    font-size: 12px;
+    color: #333;
+    padding: 0;
+}
+
+header section ul li .aboutUs .top div ul li a::before {
+    content: "";
+    margin: 0;
+}
+
+header section ul li .aboutUs .top div span {
+    display: block;
+    width: 30px;
+    border-top: 1px solid #333;
+    margin: 9px 0 25px;
+}
+
+header section ul li .aboutUs .top div:nth-of-type(4) ul li img {
+    display: none;
+    position: absolute;
+    width: 70px;
+    top: -15px;
+    left: -72px;
+}
+
+header section ul li .aboutUs .bottom {
+    width: 100%;
+    height: 178px;
+    position: absolute;
+    bottom: 0;
+}
+
+header section ul li .aboutUs .bottom p {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+}
+
+header section ul li .aboutUs .bottom p {
+    margin-bottom: 13px;
+}
+
+header section ul li .aboutUs .bottom p:first-of-type {
+    color: #666;
+    margin-bottom: 23px;
+}
+
+header section ul li .aboutUs .bottom p:nth-of-type(4) {
+    margin-bottom: 30px;
+}
+
+header section ul li .aboutUs .bottom p:first-of-type::before, header section ul li .aboutUs .bottom p:first-of-type::after {
+    display: inline-block;
+    content: "";
+    width: 300px;
+    height: 1px;
+    background: #ddd;
+    position: absolute;
+    top: 5px;
+}
+
+header section ul li .aboutUs .bottom p:first-of-type::before {
+    left: 45px;
+}
+
+header section ul li .aboutUs .bottom p:first-of-type::after {
+    right: 45px;
+}
+
+header section ul li .aboutUs .bottom a {
+    font-size: 12px;
+    color: #999;
+    padding: 0;
+}
+
+header section ul li .aboutUs .bottom a::before {
+    content: "";
+    margin: 0;
+}
+
+header section ul li .aboutUs .top div:nth-of-type(4) ul li:hover {
+    color: #f46;
+}
+
+header section ul li .aboutUs .top div ul li a:hover {
+    color: #f46;
+}
+
+/*                          搜索栏                       */
+
+#search {
+    width: 1714px;
+    height: 125px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#search a {
+    height: 100px;
+    position: absolute;
+}
+
+#search a h1 {
+    position: absolute;
+    top: -9999px;
+}
+
+#search a img {
+    width: 130px;
+    position: absolute;
+    top: 0;
+}
+
+#search section {
+    width: 100%;
+    height: 48px;
+    position: relative;
+    top: 28px;
+}
+
+#search section .category {
+    height: 39px;
+    font-size: 15px;
+    position: absolute;
+    top: 14px;
+    left: 159px;
+}
+
+#search section .category img {
+    width: 18px;
+    vertical-align: baseline;
+}
+
+#search section .category article {
+    display: none;
+    width: 1118px;
+    height: 200px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 2px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+    position: absolute;
+    top: 39px;
+    left: -198px;
+    z-index: 9999;
+}
+
+#search section .category article .left, #search section .category article .center, #search section .category article .right {
+    height: 100%;
+    padding: 30px 0 0 20px;
+    float: left;
+    position: relative;
+}
+
+#search section .category article .left, #search section .category article .center {
+    width: 322px;
+    border-right: 1px solid #eee;
+}
+
+#search section .category article .right {
+    width: 472px;
+}
+
+#search section .category article .left span, #search section .category article .center span, #search section .category article .right span {
+    display: inline-block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 26px;
+}
+
+#search section .category article .left .total, #search section .category article .center .total, #search section .category article .right .total {
+    width: unset;
+    font-size: 12px;
+    color: #999;
+    background: none;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+#search section .category article .left ul li, #search section .category article .center ul li, #search section .category article .right ul li {
+    float: left;
+    margin: 0 30px 23px 0;
+}
+
+#search section .category article .left ul li a, #search section .category article .center ul li a, #search section .category article .right ul li a {
+    width: unset;
+    font-size: 12px;
+    color: #666;
+    float: left;
+    position: unset;
+    background: none;
+}
+
+#search section .category article .left ul li a:hover, #search section .category article .center ul li a:hover, #search section .category article .right ul li a:hover {
+    color: #f46;
+}
+
+#search section .search-bar {
+    width: 710px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#search section input[type='search'] {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    background: #f7f7f7;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+#search section input[type='submit'] {
+    width: 58px;
+    height: 48px;
+    background: #8d8d8d url(../img/search.png) no-repeat center center;
+    background-size: 58px 48px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+#search section a {
+    height: 100%;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+}
+
+#search section a span {
+    position: absolute;
+    bottom: 4px;
+}
+
+#search section a:nth-of-type(1) {
+    width: 26px;
+    background-image: url(../img/message.png);
+    background-size: 24px 22px;
+    right: 442px;
+}
+
+#search section a:nth-of-type(2) {
+    width: 26px;
+    background-image: url(../img/collection.png);
+    background-size: 24px 24px;
+    right: 390px;
+}
+
+#search section a:nth-of-type(3) {
+    width: 36px;
+    background-image: url(../img/shop.png);
+    background-size: 24px 23px;
+    right: 332px;
+}
+
+#search section a:nth-of-type(4) {
+    width: 46px;
+    background-image: url(../img/app.png);
+    background-size: 24px 24px;
+    right: 276px;
+}
+
+#search section a:nth-of-type(4) span .appCode {
+    display: none;
+    width: 181px;
+    height: 200px;
+    background: url(https://s10.mogucdn.com/mlcdn/c45406/190521_2ec360a8f76giijel4e95g9h3i3ci_199x217.png) no-repeat center center;
+    position: absolute;
+    top: 26px;
+    left: -63px;
+    z-index: 9999;
+}
+
+#search section a:nth-of-type(5) {
+    height: 48px;
+    position: absolute;
+    top: 10px;
+    right: 145px;
+}
+
+#search section a:nth-of-type(5) img {
+    width: 30px;
+}
+
+#search section a:nth-of-type(5) p {
+    line-height: 30px;
+    margin-left: 36px;
+}
+
+#search section a:nth-of-type(5) span {
+    display: none;
+    width: 8px;
+    height: 5px;
+    background: url(../img/downarrow.png) no-repeat center center;
+    background-size: 8px 5px;
+    top: 14px;
+    right: -12px;
+}
+
+#search section .usermenu {
+    display: none;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+    position: absolute;
+    top: 58px;
+    right: 114px;
+    z-index: 999;
+}
+
+#search section .usermenu li {
+    width: 110px;
+    height: 40px;
+}
+
+#search section .usermenu li p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+}
+
+#search section .usermenu li p:hover {
+    color: #F46;
+}
+
+/*                             页脚                            */
+
+footer {
+    width: 100%;
+    height: 486px;
+    font-size: 12px;
+    color: #fff;
+    background: url(https://s10.mogucdn.com/mlcdn/c45406/181031_40flk9d5hkkjf44246248clfl77f1_1440x500.jpg) no-repeat;
+    background-size: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer .title {
+    display: block;
+    width: 140px;
+    margin: 50px auto 0;
+}
+
+footer .title img {
+    width: 100%;
+}
+
+footer .top {
+    width: 1200px;
+    margin: 52px auto 57px;
+}
+
+footer .top div {
+    width: 300px;
+    float: left;
+}
+
+footer .top div p {
+    font-size: 14px;
+}
+
+footer .top div span {
+    display: block;
+    width: 30px;
+    border-top: 1px solid #fff;
+    margin: 9px 0 25px;
+}
+
+footer .top div ul li {
+    font-weight: 300;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+footer .top div:nth-of-type(4) ul li img {
+    display: none;
+    position: absolute;
+    width: 70px;
+    top: -15px;
+    left: -78px;
+}
+
+footer nav {
+    width: 1169px;
+    position: absolute;
+    top: 343px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+footer nav li {
+    padding-left: 29px;
+    float: left;
+}
+
+footer nav li a {
+    font-weight: 100;
+}
+
+footer nav li::after {
+    content: "|";
+    margin-left: 29px;
+}
+
+footer nav li:last-of-type::after {
+    content: "";
+}
+
+footer .bottom {
+    width: 1200px;
+    height: 102px;
+    font-weight: 100;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+}
+
+footer .bottom p {
+    text-align: center;
+}
+
+footer .bottom p:first-of-type::before, footer .bottom p:first-of-type::after {
+    display: inline-block;
+    content: "";
+    width: 468px;
+    height: 1px;
+    background: #f6a8c2;
+    position: absolute;
+    top: 5px;
+}
+
+footer .bottom p:first-of-type::before {
+    left: -9px;
+}
+
+footer .bottom p:first-of-type::after {
+    right: -9px;
+}
+
+footer .bottom p:nth-of-type(2) {
+    margin-top: 19px;
+}
+
+footer .bottom p:nth-of-type(3) {
+    margin-top: 15px;
+}
+
+footer .bottom img {
+    width: 18px;
+    position: absolute;
+    left: 69px;
+    bottom: 24px;
+}
+
+footer .top div ul li a:hover {
+    color: #FFEA08;
+}
+
+footer .top div:last-of-type ul li:hover {
+    color: #FFEA08;
+}
+
+footer nav li a:hover {
+    color: #FFEA08;
+}

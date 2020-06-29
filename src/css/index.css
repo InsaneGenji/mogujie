@@ -1,0 +1,471 @@
+/*                         顶部悬浮搜索栏                          */
+
+#top_search {
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    box-shadow: 0 1px 6px 0 #ccc;
+    position: fixed;
+    top: -70px;
+    transition: all .39s ease;
+    z-index: 9999;
+}
+
+#top_search section {
+    width: 1714px;
+    height: 49px;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+#top_search section .title {
+    position: absolute;
+    top: -18px;
+    left: 0;
+}
+
+#top_search section .title h1 {
+    position: absolute;
+    top: -9999px;
+}
+
+#top_search section .title img {
+    width: 111px;
+}
+
+#top_search section .search-bar {
+    width: 710px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#top_search section input[type='search'] {
+    width: 100%;
+    height: 100%;
+    color: #666;
+    background: #f7f7f7;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 15px;
+    position: absolute;
+}
+
+#top_search section input[type='submit'] {
+    width: 58px;
+    height: 48px;
+    background: #8d8d8d url(../img/search.png) no-repeat center center;
+    background-size: 58px 48px;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+#top_search section a {
+    height: 100%;
+    font-size: 12px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: absolute;
+}
+
+#top_search section a span {
+    position: absolute;
+    bottom: 4px;
+}
+
+#top_search section a:nth-of-type(2) {
+    width: 26px;
+    background-image: url(../img/message.png);
+    background-size: 24px 22px;
+    right: 442px;
+}
+
+#top_search section a:nth-of-type(3) {
+    width: 26px;
+    background-image: url(../img/collection.png);
+    background-size: 24px 24px;
+    right: 390px;
+}
+
+#top_search section a:nth-of-type(4) {
+    width: 36px;
+    background-image: url(../img/shop.png);
+    background-size: 24px 23px;
+    right: 332px;
+}
+
+#top_search section a:nth-of-type(5) {
+    width: 46px;
+    background-image: url(../img/app.png);
+    background-size: 24px 24px;
+    right: 276px;
+}
+
+#top_search section a:nth-of-type(5) span .appCode {
+    display: none;
+    width: 181px;
+    height: 200px;
+    background: url(https://s10.mogucdn.com/mlcdn/c45406/190521_2ec360a8f76giijel4e95g9h3i3ci_199x217.png) no-repeat center center;
+    position: absolute;
+    top: 26px;
+    left: -63px;
+    z-index: 9999;
+}
+
+#top_search section a:nth-of-type(6) {
+    height: 39px;
+    top: 10px;
+    right: 130px;
+}
+
+#top_search section a:nth-of-type(6) img {
+    width: 30px;
+}
+
+#top_search section a:nth-of-type(6) p {
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+#top_search section a:nth-of-type(6) span {
+    display: none;
+    width: 8px;
+    height: 5px;
+    background: url(../img/downarrow.png) no-repeat center center;
+    background-size: 8px 5px;
+    top: 14px;
+    right: -12px;
+}
+
+.top_usermenu {
+    display: none;
+    background: #fff;
+    border: 1px solid #E5E5E5;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, .05);
+    position: absolute;
+    top: 48px;
+    right: 114px;
+    z-index: 999;
+}
+
+.top_usermenu li {
+    width: 110px;
+    height: 40px;
+}
+
+.top_usermenu li p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0;
+}
+
+.top_usermenu li p:hover {
+    color: #F46;
+}
+
+/*                      中央                   */
+
+main {
+    width: 1714px;
+    position: relative;
+    margin: 0 auto;
+}
+
+main .center {
+    width: 710px;
+    height: 1177px;
+    position: absolute;
+    left: 487px;
+}
+
+main .center .wrap img {
+    border-radius: 9px;
+}
+
+main .center section {
+    width: 100%;
+    height: 403px;
+    background: url(https://s10.mogucdn.com/mlcdn/c45406/190906_1lf4bh8h7aeaii592edlh9fd6cf18_1420x1113.gif) no-repeat center top;
+    background-size: 100%;
+    border-radius: 9px;
+    position: absolute;
+    bottom: 0;
+}
+
+main .center section .title {
+    width: 100%;
+    height: 55px;
+}
+
+/* 图片列表 */
+
+main .center section .pic_list {
+    height: 224px;
+    margin-left: 19px;
+}
+
+main .center section .pic_list li {
+    float: left;
+}
+
+main .center section .pic_list li a {
+    width: 112px;
+    height: 112px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+main .center section .pic_list li a p {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 84px;
+}
+
+/* 文字列表 */
+
+main .center section .text_list {
+    height: 104px;
+    margin-top: 9px;
+}
+
+main .center section .text_list li {
+    float: left;
+}
+
+main .center section .text_list li a {
+    width: 120px;
+    height: 35px;
+    background: rgb(245, 245, 245);
+    border-radius: 22px;
+    margin-top: 14px;
+    margin-left: 18px;
+}
+
+main .center section .text_list li a p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+}
+
+main .center section .text_list li:first-of-type a p {
+    color: rgb(241, 8, 8);
+}
+
+/*                    瀑布流                       */
+
+main nav li:first-of-type {
+    margin-left: 0;
+}
+
+main nav li {
+    width: 220px;
+    float: left;
+    margin-left: 24px;
+}
+
+main nav li:nth-of-type(3) section, main nav li:nth-of-type(4) section, main nav li:nth-of-type(5) section {
+    height: 1202px;
+}
+
+main nav li .live {
+    width: 220px;
+    height: 320px;
+    background: url(https://s10.mogucdn.com/mlcdn/c45406/190520_1bag70e8cjfdj807k4kbcgg095lia_220x320.gif) no-repeat center center;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .05);
+    margin-bottom: 24px;
+    transition: all .39s;
+    position: relative;
+    top: 0;
+}
+
+main nav li figure {
+    margin-bottom: 24px;
+    border-radius: 9px;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, .05);
+    transition: all .39s;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+}
+
+main nav li figure span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: url(../img/play.png) no-repeat center center;
+    background-size: 30px 30px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 99;
+}
+
+main nav li figure figcaption {
+    display: none;
+    padding: 12px 10px;
+}
+
+main nav li figure figcaption p {
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px;
+    background: #eee;
+    border-radius: 3px;
+    margin: 0 3px 3px 0;
+}
+
+main nav li figure:hover figcaption p {
+    background: #fff;
+}
+
+main nav li figure div {
+    position: relative;
+}
+
+main nav li figure div img {
+    width: 220px;
+    height: 293px;
+}
+
+main nav li figure div a {
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+main nav li figure div a section {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right: 10px;
+}
+
+main nav li figure div a section:first-of-type {
+    background: url("../img/like.png") no-repeat center center;
+    background-size: 42px 42px;
+    top: 10px;
+}
+
+main nav li figure div a section:last-of-type {
+    background: url("../img/collect.png") no-repeat center center;
+    background-size: 42px 42px;
+    top: 61px;
+}
+
+main nav li figure div a p {
+    display: -webkit-box;
+    font-size: 14px;
+    color: #fff;
+    line-height: 21px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    position: absolute;
+    bottom: 10px;
+}
+
+/*                    悬浮广告栏                   */
+
+#suspension {
+    width: 100%;
+    height: 68px;
+    background: #fff;
+    opacity: .9;
+    border-top: 1px solid #c5c5c5;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+#suspension section {
+    width: 1714px;
+    height: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#suspension section div {
+    width: 68px;
+    height: 68px;
+    background: url(../img/close.png) no-repeat center center;
+    background-size: 20px 20px;
+    float: left;
+    cursor: pointer;
+}
+
+#suspension section span {
+    color: #f46;
+    line-height: 68px;
+    float: right;
+    margin-right: 20px;
+}
+
+#suspension section a {
+    width: 124px;
+    height: 42px;
+    background: #f46;
+    border-radius: 8px;
+    float: right;
+    margin-top: 13px;
+}
+
+#suspension section a p {
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 auto;
+}
+
+/*                         楼梯                        */
+
+.active {
+    color: #fff!important;
+    background-color: cyan!important;
+}
+
+aside {
+    display: none;
+    border-radius: 6px;
+    background-color: #fff!important;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .05);
+    position: fixed;
+    right: 20px;
+    top: 244px;
+    overflow: hidden;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+aside section {
+    width: 72px;
+    height: 72px;
+    font-size: 20px;
+    text-align: center;
+    color: #999;
+    padding-top: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside section:last-of-type {
+    font-size: 12px;
+    line-height: 95px;
+    background: #fff url(../img/goToTop.png) no-repeat center 18px;
+    background-size: 18px 18px;
+    border-bottom: 0;
+}

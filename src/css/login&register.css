@@ -1,0 +1,234 @@
+.show {
+    display: block!important;
+}
+
+/*                        页首                                 */
+
+header {
+    height: 101px;
+}
+
+header section {
+    width: 1200px;
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+header section .title h1 {
+    position: absolute;
+    top: -9999px;
+}
+
+header section .title img {
+    width: 130px;
+}
+
+header section .tip {
+    width: 861px;
+    height: 28px;
+    font-size: 11px;
+    color: #666;
+    text-align: center;
+    line-height: 28px;
+    background-color: #ffefef;
+    border: 1px solid #ffc0cc;
+    position: absolute;
+    top: 36px;
+    left: 151px;
+}
+
+/*                           登录&注册                          */
+
+main {
+    height: 600px;
+    background-image: url(https://s17.mogucdn.com/p2/170105/upload_541i9di2b3icf9j13f24e0bg7b1i6_1920x600.png);
+    position: relative;
+}
+
+main article {
+    width: 400px;
+    opacity: .9;
+    background-color: #ffeceb;
+    padding: 0 5px;
+    position: absolute;
+    top: 80px;
+    right: 318px;
+}
+
+main article .title {
+    height: 54px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+main article .title .title_login, main article .title .title_register {
+    width: 119px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 42px;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+
+main article .title .title_login {
+    left: 39px;
+}
+
+main article .title .title_register {
+    right: 39px;
+}
+
+main article section {
+    margin-top: 17px;
+}
+
+main article section .warning {
+    display: none;
+    width: 314px;
+    height: 32px;
+    font-size: 12px;
+    color: #ff1877;
+    background: url(../img/warning.png) 12px no-repeat #fffff8;
+    padding: 10px 40px;
+    border: 1px solid #ffd797;
+    margin: 0 auto 9px;
+}
+
+main article .title .active {
+    color: #fe617a;
+    border-bottom: 2px solid #ff4066;
+}
+
+main article section .login, main article section .register {
+    display: none;
+}
+
+main article section .register form p {
+    text-align: center;
+    position: relative;
+}
+
+main article section .register form p span {
+    position: absolute;
+    top: 13px;
+    right: 26px;
+}
+
+main article section .login form input, main article section .register form input {
+    display: block;
+    width: 314px;
+    height: 40px;
+    font-size: 12px;
+    background: transparent;
+    border: 1px solid #ccc;
+    padding: 0 6px;
+    margin: 0 auto 13px;
+}
+
+main article section .login form input[type='button'], main article section .register form input[type='submit'] {
+    width: 314px;
+    color: #fff;
+    background: #ff5777;
+    padding: 0;
+    border: none;
+    border-radius: 2px;
+    margin: 28px auto 39px;
+    cursor: pointer;
+}
+
+/*                                 底部                        */
+
+footer {
+    height: 210px;
+    font-size: 12px;
+    position: relative;
+}
+
+footer nav {
+    width: 1169px;
+    color: #666;
+    position: absolute;
+    top: 98px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+footer nav li {
+    font-weight: 300;
+    padding-left: 29px;
+    float: left;
+}
+
+footer nav li a {
+    color: #666;
+}
+
+footer nav li a:hover {
+    color: #f46;
+}
+
+footer nav li::after {
+    content: "|";
+    margin-left: 29px;
+}
+
+footer nav li:last-of-type::after {
+    content: "";
+}
+
+footer .bottom {
+    width: 1200px;
+    color: hsla(0, 0%, 40%, .7);
+    font-weight: 100;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+footer .bottom a {
+    color: hsla(0, 0%, 40%, .7);
+}
+
+footer .bottom p {
+    text-align: center;
+}
+
+footer .bottom p:first-of-type::before, footer .bottom p:first-of-type::after {
+    display: inline-block;
+    content: "";
+    width: 468px;
+    height: 1px;
+    background: hsla(0, 0%, 40%, .3);
+    position: absolute;
+    top: 5px;
+}
+
+footer .bottom p:first-of-type::before {
+    left: -9px;
+}
+
+footer .bottom p:first-of-type::after {
+    right: -9px;
+}
+
+footer .bottom p:nth-of-type(2) {
+    margin-top: 19px;
+}
+
+footer .bottom p:nth-of-type(3) {
+    margin-top: 15px;
+}
+
+footer .bottom img {
+    width: 18px;
+    position: absolute;
+    left: 69px;
+    bottom: 0;
+}

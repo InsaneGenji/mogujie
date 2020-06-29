@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icon-mogujie.png" type="image/x-icon">
+    <title>登录&注册</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/login&register.css">
+</head>
+
+<body>
+    <!-- 页首 -->
+    <header>
+        <section>
+            <a href="" class="title">
+                <h1>蘑菇街</h1>
+                <img src="img/MoGuJie.png" alt="">
+            </a>
+            <div class="tip">
+                依《网络安全法》相关要求，即日起蘑菇街会员登陆需绑定手机。为保障您的账户安全及正常使用，如您尚未绑定，请尽快完成绑定，感谢您的理解和支持!
+            </div>
+        </section>
+    </header>
+
+
+
+    <!-- 登录&注册 -->
+    <main>
+        <article>
+            <div class="title">
+                <div class="title_login active">
+                    登录
+                </div>
+                <div class="title_register">
+                    注册
+                </div>
+            </div>
+            <section>
+                <span class="warning"></span>
+                <div class="login show">
+                    <form action="" method="post">
+                        <input type="text" placeholder="用户名/邮箱/手机号">
+                        <input type="password" placeholder="密码">
+                        <input type="button" value="登录">
+                    </form>
+                </div>
+                <div class="register">
+                    <form action="http://10.31.155.17/MoGuJie/php/register.php" method="post">
+                        <p><input type="text" placeholder="用户名（4-16位，允许大小写字母、数字、下划线）" name="username"><span></span></p>
+                        <p><input type="text" placeholder="邮箱" name="email"><span></span></p>
+                        <p><input type="text" placeholder="手机号" name="phone"><span></span></p>
+                        <p><input type="password" placeholder="密码（6-12位，允许大小写字母、数字、下划线）" name="password"><span></span></p>
+                        <p><input type="password" placeholder="确认密码"><span></span></p>
+                        <input type="submit" value="注册" name="register">
+                    </form>
+                </div>
+            </section>
+        </article>
+    </main>
+
+
+
+    <!-- 页脚 -->
+    <footer>
+        <nav>
+            <li>
+                <a href="">
+                    关于我们
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    招聘信息
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    联系我们
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    商家入驻
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    商家后台
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    商家社区
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    规则中心
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    规则众议院
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    有害信息举报
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    用户隐私保护
+                </a>
+            </li>
+        </nav>
+        <div class="bottom">
+            <p>©2019 Mogu.com 杭州卷瓜网络有限公司</p>
+            <p>营业执照：<a href="">913301065526808764</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：<a
+                    href="">浙B2-20110349</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="">安全责任书</a>&nbsp;&nbsp;&nbsp;|
+            </p>
+            <img src="img/police.png" alt="">
+            <p>浙公网安备 33010602010221号&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                    href="">互联网医药信息服务资格证书编号：(浙)-经营性-2018-0002</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                    href="">浙网食A33010003</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                    href="">出版物网络交易平台服务经营备案证</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                    href="">(浙)网械平台备字[2018]第00006号</a>&nbsp;&nbsp;&nbsp;|</p>
+        </div>
+    </footer>
+
+
+
+    <script src="js/login&register.js" type="module"></script>
+</body>
+
+</html>

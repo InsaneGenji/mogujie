@@ -1,0 +1,192 @@
+main {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main ul {
+    height: 51px;
+    padding: 15px 26px;
+    background-color: #f6f6f6;
+    border: 1px solid #ddd;
+}
+
+main ul li {
+    font-size: 12px;
+    color: #333;
+    line-height: 21px;
+    float: left;
+}
+
+main ul li:nth-of-type(2) {
+    margin: 0 586px 0 111px;
+}
+
+main ul li:nth-of-type(4) {
+    margin: 0 69px 0 70px;
+}
+
+main ul li:nth-of-type(6) {
+    margin-left: 30px;
+}
+
+main nav {
+    margin: 23px 0;
+}
+
+main nav li {
+    height: 150px;
+    padding: 24px 26px;
+    border: 1px solid #ddd;
+    margin-bottom: 9px;
+}
+
+main nav li input, main nav li .information, main nav li .pic, main nav li .title, main nav li .price, main nav li .number, main nav li .total_price {
+    float: left;
+}
+
+main nav li .cs, main nav li .delect {
+    font-size: 12px;
+}
+
+main nav li .cs, main nav li .price {
+    color: #666;
+}
+
+main nav li .price, main nav li .number input {
+    font-size: 14px;
+}
+
+main nav li .price, main nav li .delect {
+    margin-top: 5px;
+}
+
+main nav li .delect, main .bottom div {
+    cursor: pointer;
+}
+
+main nav li .information {
+    width: 788px;
+    position: relative;
+}
+
+main nav li .pic {
+    margin: 0 13px;
+}
+
+main nav li .pic img {
+    width: 78px;
+}
+
+main nav li .title h2 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+main nav li .cs {
+    position: absolute;
+    left: 618px;
+}
+
+main nav li .price {
+    font-weight: 700;
+}
+
+main nav li .number {
+    display: inline-block;
+    width: 95px;
+    height: 25px;
+    border: 1px solid #ddd;
+    margin-left: 77px;
+    position: relative;
+    margin: 0 40px 0 52px;
+}
+
+main nav li .number button {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border: 0;
+    background-color: transparent;
+    background-image: url('https://s10.mogucdn.com/p2/170122/117603130_6a8jgjh899bh5jd6hcia3ehhj0113_221x704.png');
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+main nav li .number button:first-of-type {
+    border-right: 1px solid #ddd;
+    background-position: -3px 2px;
+    float: left;
+}
+
+main nav li .number button:last-of-type {
+    border-left: 1px solid #ddd;
+    background-position: -3px -78px;
+    float: right;
+}
+
+main nav li .number input {
+    width: 43px;
+    height: 100%;
+    color: #000;
+    text-align: center;
+    border: 0;
+    float: left;
+}
+
+main nav li .total_price {
+    font-size: 20px;
+    color: #ff5777;
+}
+
+main nav li .delect {
+    color: #333;
+    float: right;
+    margin-right: 14px;
+}
+
+main nav li .delect:hover, main .bottom div:hover {
+    text-decoration: underline;
+}
+
+/* 结算 */
+
+main .bottom {
+    height: 50px;
+    font-size: 12px;
+    color: #666;
+    padding-left: 26px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    margin-bottom: 39px;
+    position: sticky;
+    bottom: 0;
+}
+
+main .bottom input, main .bottom div, main .bottom p, main .bottom h3, main .bottom h4 {
+    margin-top: 19px;
+    float: left;
+}
+
+main .bottom div {
+    margin-left: 23px;
+    margin-right: 688px;
+}
+
+main .bottom p span {
+    color: #ff5777;
+}
+
+main .bottom h3, main .bottom h4 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #ff5777;
+    margin-top: 12px;
+}
+
+main .bottom button {
+    width: 152px;
+    height: 48px;
+    background: #d8d8d8 url("https://s10.mogucdn.com/pic/150511/1blhwf_ie2tiobvhfrdkojrgezdambqhayde_360x900.png") 0 -800px no-repeat;
+    float: right;
+    cursor: pointer;
+}
